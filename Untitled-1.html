@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Volunteer Opportunities</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .search-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        .search-bar {
+            width: 100%;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1.1rem;
+        }
+
+        .opportunities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .opportunity-card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .opportunity-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .opportunity-card h3 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+
+        .opportunity-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .apply-button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .apply-button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Local Volunteer Opportunities</h1>
+        <p>Make a difference in your community today</p>
+    </header>
+
+    <div class="search-container">
+        <input type="text" class="search-bar" placeholder="Search for volunteer opportunities in your area...">
+    </div>
+
+    <main class="opportunities-grid">
+        <div class="opportunity-card">
+            <h3>Opportunity 1</h3>
+            <p>Description of the opportunity</p>
+            <p><strong>Location:</strong> Location of the opportunity</p>
+            <p><strong>Time:</strong> Time of the opportunity</p>
+            <button class="apply-button">Learn More</button>
+        </div>
+
+        <div class="opportunity-card">
+            <h3>Opportunity 2</h3>
+            <p>Description of the opportunity</p>
+            <p><strong>Location:</strong> Location of the opportunity</p>
+            <p><strong>Time:</strong> Time of the opportunity</p>
+            <button class="apply-button">Learn More</button>
+        </div>
+
+        <div class="opportunity-card">
+            <h3>Opportunity 3</h3>
+            <p>Description of the opportunity</p>
+            <p><strong>Location:</strong> Location of the opportunity</p>
+            <p><strong>Time:</strong> Time of the opportunity</p>
+            <button class="apply-button">Learn More</button>
+        </div>
+
+        <div class="opportunity-card">
+            <h3>Opportunity 4</h3>
+            <p>Description of the opportunity</p>
+            <p><strong>Location:</strong> Location of the opportunity</p>
+            <p><strong>Time:</strong> Time of the opportunity</p>
+            <button class="apply-button">Learn More</button>
+        </div>
+    </main>
+</body>
+</html>
